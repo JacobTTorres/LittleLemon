@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+:root{
+  --primaryGreen: rgba(73,94,87,1);
+  --primaryYellow: rgba(244,206,20);
+  
+  --secondarySalmon: rgba(228,153,144);
+  --secondaryPink: rgba(251,218,187);
+
+  --highlightWhite: rgba(237,239,238);
+  --highlightBlack: rgba(51,51,51);
+}
+
 body {
   margin: 0;
   padding: 1rem;
@@ -13,4 +24,15 @@ body {
 h1 {
   font-weight: 800;
   font-size: 1.5rem;
+}
+
+li{
+  list-style: none;
+}
+
+.appContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

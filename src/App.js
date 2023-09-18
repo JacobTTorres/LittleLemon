@@ -7,12 +7,14 @@ import Main from './components/main/Main';
 import Footer from './components/footer/Footer';
 
 export default function App() {
-  return (
-    <>
-      <Nav />
-      <Header />
-      <Main />
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<div className="appContainer">
+				<Nav />
+				<Header />
+				<Main />
+				<Footer />
+			</div>
+		</>
+	);
 }
