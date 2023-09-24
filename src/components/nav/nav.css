@@ -6,3 +6,12 @@
   height: 123px;
   width: 100%;
 }
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 50vw;
+  height: 100vh;
+}
