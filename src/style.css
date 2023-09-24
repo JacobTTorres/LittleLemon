@@ -18,7 +18,8 @@
   --markazi: 'Markazi Text', serif;
 }
 
-body,.outterApp {
+body,
+.outterApp {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: var(--highlightBlack);
@@ -28,11 +29,6 @@ body,.outterApp {
   align-items: center;
 }
 
-.outterApp{
-  width: 100%;
-  height: 100%;
-}
-
 h1 {
   font-weight: 500;
   font-size: 64px;
@@ -40,12 +36,12 @@ h1 {
   margin: 0%;
 }
 
-h3{
+h3 {
   margin: 0;
   font-size: 25px;
 }
 
-ul{
+ul {
   padding: 0;
 }
 
@@ -56,16 +52,16 @@ li {
   font-weight: bold;
 }
 
-button{
+button {
   background-color: var(--primaryYellow);
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border: none;
   border-radius: 5px;
   font-size: 18px;
   font-weight: bolder;
 }
 
-p{
+p {
   font-size: 18;
   font-weight: 500;
   font-family: var(--karla);
@@ -76,6 +72,19 @@ p{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 860px;
+  width: 100vw;
   height: 100%;
+  z-index: 2;
+}
+
+.headerBackdrop {
+  height: 40vh;
+  width: 100vw;
+  background-color: var(--primaryGreen);
+  position: absolute;
+  z-index: 1;
+}
+
+Nav,Header,Main,Footer{
+  padding: 0 25vw;
 }

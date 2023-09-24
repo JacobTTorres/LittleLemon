@@ -4,7 +4,8 @@
   align-items: center;
   flex-direction: row;
   height: 123px;
-  width: 75%;
+  width: 100%;
+  background-color: var(--highlightWhite);
 }
 
 .navLinks {
