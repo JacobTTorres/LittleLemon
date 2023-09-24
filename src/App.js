@@ -9,12 +9,15 @@ import Footer from './components/footer/Footer';
 export default function App() {
 	return (
 		<>
-			<div className="appContainer">
+		<div className="outterApp">
+		<div className="appContainer">
 				<Nav />
 				<Header />
 				<Main />
 				<Footer />
 			</div>
+		</div>
+		
 		</>
 	);
 }

@@ -18,17 +18,35 @@
   --markazi: 'Markazi Text', serif;
 }
 
-body {
+body,.outterApp {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: var(--highlightBlack);
   background-color: var(--highlightWhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outterApp{
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
-  font-weight: 800;
-  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 64px;
   font-family: var(--markazi);
+  margin: 0%;
+}
+
+h3{
+  margin: 0;
+  font-size: 25px;
+}
+
+ul{
+  padding: 0;
 }
 
 li {
@@ -38,11 +56,26 @@ li {
   font-weight: bold;
 }
 
+button{
+  background-color: var(--primaryYellow);
+  padding: .5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+p{
+  font-size: 18;
+  font-weight: 500;
+  font-family: var(--karla);
+}
+
 .appContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 1440px;
+  width: 860px;
   height: 100%;
 }
