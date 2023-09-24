@@ -22,7 +22,7 @@ body {
   margin: 0;
   padding: 1rem;
   font-family: system-ui, sans-serif;
-  color: black;
+  color: var(--highlightBlack);
   background-color: white;
 }
 
@@ -35,6 +35,8 @@ h1 {
 li {
   list-style: none;
   font-family: var(--karla);
+  font-size: 18;
+  font-weight: bold;
 }
 
 .appContainer {
