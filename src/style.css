@@ -29,6 +29,11 @@ body,
   align-items: center;
 }
 
+.outterApp {
+  height: 100%;
+  width: 100%;
+}
+
 h1 {
   font-weight: 500;
   font-size: 64px;
@@ -36,7 +41,9 @@ h1 {
   margin: 0%;
 }
 
-h3 {
+h3,
+h4,
+h5 {
   margin: 0;
   font-size: 25px;
 }
@@ -59,6 +66,7 @@ button {
   border-radius: 5px;
   font-size: 18px;
   font-weight: bolder;
+  height: 5vh;
 }
 
 p {
@@ -82,9 +90,14 @@ p {
   width: 100vw;
   background-color: var(--primaryGreen);
   position: absolute;
+  top: 5vw;
   z-index: 1;
 }
 
-Nav,Header,Main,Footer{
+Nav,
+Header,
+Main,
+Footer {
   padding: 0 25vw;
+  width: 100vw;
 }
