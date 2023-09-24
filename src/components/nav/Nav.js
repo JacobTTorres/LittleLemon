@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './nav.css';
+
 import Logo from '../../icons_assets/Logo.svg';
 
 export default function Nav() {
