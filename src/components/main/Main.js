@@ -93,13 +93,16 @@ export default function Main() {
               <h5 className="rating">4.5/5</h5>
             </div>
             <div className="reviewer">
-              <img src="" alt="" className="reviewImg" />
+              <img
+                src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
+                alt=""
+                className="reviewImg"
+              />
               <h5 className="reviewerName">Name</h5>
             </div>
             <p className="reviewText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-              deleniti vero labore. Aspernatur, suscipit esse dolores eligendi
-              sunt aliquid Doloremque, amet corporis!
+              Aspernatur, suscipit esse dolores eligendi sunt aliquid
+              Doloremque, amet corporis!
             </p>
           </div>
           <div className="reviewCards">
@@ -108,11 +111,14 @@ export default function Main() {
               <h5 className="rating">3.2/5</h5>
             </div>
             <div className="reviewer">
-              <img src="" alt="" className="reviewImg" />
+              <img
+                src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
+                alt=""
+                className="reviewImg"
+              />
               <h5 className="reviewerName">Name</h5>
             </div>
             <p className="reviewText">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Doloremque nam ipsam non voluptas porro possimus . Eligendi
               numquam aperiam facere et.
             </p>
@@ -123,11 +129,14 @@ export default function Main() {
               <h5 className="rating">5/5</h5>
             </div>
             <div className="reviewer">
-              <img src="" alt="" className="reviewImg" />
+              <img
+                src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
+                alt=""
+                className="reviewImg"
+              />
               <h5 className="reviewerName">Name</h5>
             </div>
             <p className="reviewText">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Reprehenderit quibusdam exercitationem atque eligendi. Harum, amet
               ab.
             </p>
@@ -138,12 +147,16 @@ export default function Main() {
               <h5 className="rating">4.3/5</h5>
             </div>
             <div className="reviewer">
-              <img src="" alt="" className="reviewImg" />
+              <img
+                src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
+                alt=""
+                className="reviewImg"
+              />
               <h5 className="reviewerName">Name</h5>
             </div>
             <p className="reviewText">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
-              quas sint. Veritatis adipisci nam accusamus velit accusantium.
+              Ipsa quas sint. Veritatis adipisci nam accusamus velit
+              accusantium.
             </p>
           </div>
         </div>
