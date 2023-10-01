@@ -66,7 +66,8 @@ button {
   border-radius: 5px;
   font-size: 18px;
   font-weight: bolder;
-  height: 5vh;
+  width: 10.25vw;
+  height: 6vh;
 }
 
 p {
