@@ -16,7 +16,13 @@ export default function Header() {
         </p>
         <button className="resTableBtn">Reserve a Table</button>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <img
+          src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
+          alt=""
+          className="headerImg"
+        />
+      </div>
     </header>
   );
 }

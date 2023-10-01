@@ -13,3 +13,12 @@ header{
   color: var(--primaryYellow);
 }
 
+.right{
+  padding-top: 2rem;
+}
+
+.headerImg{
+  height: 38vh;
+  width: 18vw;
+  border-radius: 16px;
+}
