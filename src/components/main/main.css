@@ -221,4 +221,24 @@
   margin-bottom: 4vh;
 }
 
+.topImg,.bottomImg{
+  height: 36.8vh;
+  width: 14.5vw;
+  position: absolute;
+}
+
+.topImg{
+  right: 0;
+  z-index: 1;
+}
+
+.bottomImg{
+  bottom: 5rem;
+  z-index: 0;
+}
+
+.lowerInfo{
+  width: 80%;
+}
+
 /* lower-header ^^^*/

@@ -174,8 +174,16 @@ export default function Main() {
           </p>
         </div>
         <div className="lowerRight">
-          <img src="" alt="" className="bottomImg" />
-          <img src="" alt="" className="topImg" />
+          <img
+            src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
+            alt=""
+            className="bottomImg"
+          />
+          <img
+            src="https://loopstudio-jt-frontendmentor.netlify.app/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg"
+            alt=""
+            className="topImg"
+          />
         </div>
       </section>
     </main>
