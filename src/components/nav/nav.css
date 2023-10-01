@@ -1,11 +1,21 @@
 .topNavbar {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 13.5vh;
+  width:100%;
+  background-color: var(--highlightWhite);
+}
+
+.navContainer{
+  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   height: 13.5vh;
-  width: 100%;
-  background-color: var(--highlightWhite);
+  width:960px;
+  background-color: var(--highlightWhite)
 }
 
 .navLinks {
